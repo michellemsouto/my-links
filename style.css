@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:gray;
+    background-color: black;
     font-family: sans-serif;
 }
 
@@ -34,17 +34,17 @@ li{
     list-style: none;
 }
 
-a{
-    background-color: limegreen;
-    color: white;
-    font-size: 30px;
-    padding-top: 10px;
+.logos{
+    width: 100px;
+    height: 100px;
     text-decoration: none;
-    display: block;
-    width: 320px;
-    height: 48px;
-    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+
 }
+
 
 .container{
     width: 320px;
